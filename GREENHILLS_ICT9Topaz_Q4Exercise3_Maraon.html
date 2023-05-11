@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet">
+	<title>Centimeters To Feet Converter</title>
+</head>
+<center><body><br><br><br>
+	<div class="row">
+		<div class="col-xl-6"></div>
+    		<input type="text" id="num1" placeholder="Centimeters"><br><br>
+ 		   	<input type="submit" value="Convert to Feet" onclick="myFirstFunction()"><br>
+ 		   	<table class="table-bordered table">
+    		<p id="id1"></p>
+   			<script>
+        		function myFirstFunction() {
+           		var x = document.getElementById('num1').value;
+            	var answer = x/30.48 + " Feet";
+            	document.getElementById('id1').innerHTML = answer;
+       			 }
+    		</script>
+</center>
+</div>
+</body>
+</html>
